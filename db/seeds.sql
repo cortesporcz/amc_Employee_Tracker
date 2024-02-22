@@ -1,21 +1,29 @@
-INSERT INTO department (department_name)
-VALUES
-('Librarian'),
-('Librarian II'),
-('Librarian III'),
-('Public Service Administrator');
+USE employee_trackerDB;
 
-INSERT INTO roles (title, salary, department_id)
-VALUES
-('Public servant', 40000, 1),
-('Patron complaint specialist', 50000, 1),
-('Branch operations', 60000, 2),
-('Head of services', 80000, 3);
+INSERT INTO department (name)
+VALUES 
+("Sales"), 
+("Engineering"), 
+("Finance"), 
+("Legal");
 
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
+INSERT INTO role (title, salary, department_id)
+VALUES 
+("Sales Lead", 100000, 1), 
+("Salesperson", 80000, 1), 
+("Lead Engineer", 150000, 2), 
+("Software Engineer", 120000, 2), 
+("Accountant", 125000, 3), 
+("Legal Team Lead", 250000, 4), 
+("Lawyer", 190000, 4);
 
-('Shannon', 'Dye', 1, 1), 
-('Angela', 'Cortes', 2, 1),
-('Angela', 'Morrow', 3, 2),
-('Randall', 'Polasek', 4, 2);
-
+INSERT INTO employee (first_name, last_name, role_id)
+VALUES 
+("Oscar", "Wilde", 1), 
+("James", "Joyce", 2), 
+("Jane", "Austen", 4), 
+("George", "Orwell", 5), 
+("Bell", "Hooks", 6), 
+("Charles", "Dickens", 7), 
+("Kurt", "Vonnegut", 5), 
+("Maya", "Angelou", 4); 
