@@ -35,3 +35,6 @@ You'll need to use the MySQL2 package to connect to your MySQL database and perf
 
 ## Important
 In order to install inquirer, please use npm i inquirer@8.2.4.
+
+## Credits and Resources
+UTSA peers, especially Joshua Hale's repo. Other credits include: https://www.youtube.com/watch?v=m9CQxR0AfiQ (Although I still wasn't able to render the actual content.)
