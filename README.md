@@ -1,5 +1,10 @@
 # amc_Employee_Tracker
 Content management system interface
+## Description
+This application allows the user to manage and maintain a database of information with tools to View Departments, Roles, and Employees. User can also Add a Department, Role, Employee, or Manager. User can also Update an Employee Role, Delete a Department/Role/Employee, and view the total budget of a given department."
+
+## Installation
+Clone the repository, navigate to the approriate directory in your CLI (the one containing server.js), and install the dependencies by typing "npm i" into your command line.
 
 ## User Story
 AS A business owner
