@@ -1,9 +1,9 @@
 //require in your dependencies
 const mysql2 = require('mysql2');
 const inquirer = require('inquirer');
-require('console.table');
 
-const connection = mysql.createConnection({ 
+
+const connection = mysql2.createConnection({ 
     host: 'localhost',
     user: 'root',
     password: '@Stellaria08@',

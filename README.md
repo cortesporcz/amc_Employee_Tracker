@@ -33,6 +33,8 @@ THEN I am prompted to select an employee to update and their new role and this i
 ## Mock-Up
 
 https://github.com/cortesporcz/amc_Employee_Tracker
+https://drive.google.com/file/d/1JoDVWCSCqMpHYeZ4enKIoUez0JiqKa_d/view
+
 
 
 ## Getting Started
@@ -42,4 +44,4 @@ You'll need to use the MySQL2 package to connect to your MySQL database and perf
 In order to install inquirer, please use npm i inquirer@8.2.4.
 
 ## Credits and Resources
-UTSA peers, especially Joshua Hale's repo. Other credits include: https://www.youtube.com/watch?v=m9CQxR0AfiQ (Although I still wasn't able to render the actual content.)
+UTSA peers, especially Joshua Hale's mysql help to get the mysql errors fixed. Other credits include: https://www.youtube.com/watch?v=m9CQxR0AfiQ (used just to get started)
