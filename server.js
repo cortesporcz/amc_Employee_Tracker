@@ -1,15 +1,15 @@
 //require in your dependencies
-const mysql = require("mysql");
-const mysql2 = require("mysql2");
-const inquirer = require("inquirer");
-require("console.table");
+const mysql = require('mysql');
+const mysql2 = require('mysql2');
+const inquirer = require('inquirer');
+require('console.table');
 
 const connection = mysql.createConnection({ 
-    host: "localhost",
-    port: "3306",
-    user: "root",
-    password: "1234",
-    database: "employee_trackerDB"
+    host: 'localhost',
+    port: '3306',
+    user: 'root',
+    password: '@Stellaria08@',
+    database: 'employee_trackerDB'
 })
 
 connection.connect(function (err) {
